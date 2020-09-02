@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "ims-front"
+    }
+  },
+  "defaultProject": "ims-front",
+  "cli": {
+    "analytics": "9e416418-8a3f-436c-8725-cd418c556b26"
+  }
 }
