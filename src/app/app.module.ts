@@ -8,6 +8,9 @@ import { LoginComponent } from './authentication/login/login.component';
 import { DashboardComponent } from './business/dashboard/dashboard.component';
 import { LeftBarComponent } from './business/left-bar/left-bar.component';
 import { TopBarComponent } from './business/top-bar/top-bar.component';
+import { UserComponent } from './business/user/user.component';
+import { CreateComponent } from './business/user/create/create.component';
+import { UpdateComponent } from './business/user/update/update.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +19,10 @@ import { TopBarComponent } from './business/top-bar/top-bar.component';
     LoginComponent,
     DashboardComponent,
     LeftBarComponent,
-    TopBarComponent
+    TopBarComponent,
+    UserComponent,
+    CreateComponent,
+    UpdateComponent
   ],
   imports: [
     BrowserModule,
