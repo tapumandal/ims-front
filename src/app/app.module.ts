@@ -11,6 +11,7 @@ import { TopBarComponent } from './business/top-bar/top-bar.component';
 import { UserComponent } from './business/user/user.component';
 import { CreateComponent } from './business/user/create/create.component';
 import { UpdateComponent } from './business/user/update/update.component';
+import { BusinessComponent } from './business/business.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { UpdateComponent } from './business/user/update/update.component';
     TopBarComponent,
     UserComponent,
     CreateComponent,
-    UpdateComponent
+    UpdateComponent,
+    BusinessComponent
   ],
   imports: [
     BrowserModule,
