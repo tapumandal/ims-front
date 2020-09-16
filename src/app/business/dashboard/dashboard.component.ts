@@ -63,3 +63,7 @@ export class DashboardComponent implements OnInit {
 
 
 }
+
+
+// Demo js code for dashboard 
+// "node_modules/admin-lte/dist/js/pages/dashboard3.js",
