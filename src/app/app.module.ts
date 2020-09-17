@@ -4,32 +4,19 @@ import { NgModule } from '@angular/core';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
-import { DashboardComponent } from './business/dashboard/dashboard.component';
-import { LeftBarComponent } from './business/left-bar/left-bar.component';
-import { TopBarComponent } from './business/top-bar/top-bar.component';
-import { UserComponent } from './business/user/user.component';
-import { CreateComponent } from './business/user/create/create.component';
-import { UpdateComponent } from './business/user/update/update.component';
-import { BusinessComponent } from './business/business.component';
 import { AuthModule } from "./auth/auth.module";
-
+import { BusinessModule } from "./business/business.module";
 
 @NgModule({
   declarations: [
     AppComponent,
-    HomeComponent,
-    DashboardComponent,
-    LeftBarComponent,
-    TopBarComponent,
-    UserComponent,
-    CreateComponent,
-    UpdateComponent,
-    BusinessComponent
+    HomeComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    AuthModule
+    AuthModule,
+    BusinessModule
   ],
   providers: [],
   bootstrap: [AppComponent]

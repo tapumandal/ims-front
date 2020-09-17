@@ -2,19 +2,8 @@ import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 
 import { HomeComponent } from './home/home.component';
-import { BusinessComponent } from './business/business.component';
-import { DashboardComponent } from './business/dashboard/dashboard.component';
-import { UserComponent } from './business/user/user.component';
 const routes: Routes = [
-  {path: "", component: HomeComponent},
-  {
-    path: "", component: BusinessComponent,
-    children: [
-      {path: "dashboard", component: DashboardComponent},
-      {path: "users", component: UserComponent}
-    ]
-  }
-
+  {path: "", component: HomeComponent}
 ];
 
 @NgModule({
