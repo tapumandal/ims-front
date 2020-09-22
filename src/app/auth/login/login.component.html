@@ -28,6 +28,7 @@
   </p>
   <!-- /.login-logo -->
   <div class="card">
+    <div *ngIf="message" [ngClass]="message.cssClass">{{message.text}}</div>
     <div class="card-body login-card-body">
       <p class="login-box-msg">Sign in to start your session</p>
 
