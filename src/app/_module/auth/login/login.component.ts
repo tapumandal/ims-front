@@ -12,6 +12,7 @@ import { Router } from '@angular/router';
 })
 export class LoginComponent implements OnInit {
 
+  mainTitle = "Business Name";
   username: string;
   password: string;
   loginResponse: Loginresponse;
